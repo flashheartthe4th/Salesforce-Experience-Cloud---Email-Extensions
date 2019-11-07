@@ -1,5 +1,25 @@
 {
-  "orgName": "paulweeden company",
-  "edition": "Developer",
-  "features": []
+  "orgName": "Community Email Extension",
+  "edition": "Enterprise",
+  "features": ["ServiceCloud","Chatbot","CPQ","Communities","Knowledge","LiveAgent","LightningServiceConsole","LiveMessage"],
+  "settings": {
+      "lightningExperienceSettings": {
+          "enableS1DesktopEnabled": true
+      },
+      "mobileSettings": {
+          "enableS1EncryptedStoragePref2": false
+      },
+      "communitiesSettings": {
+          "enableNetworksEnabled": true
+      },
+      "omniChannelSettings": {
+          "enableOmniChannel": true
+      },
+      "liveAgentSettings": {
+        "enableLiveAgent": true
+      },
+      "emailAdministrationSettings": {
+        "enableEnhancedEmailEnabled": true
+      }
+  }
 }
