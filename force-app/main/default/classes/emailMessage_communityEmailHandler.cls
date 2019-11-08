@@ -11,7 +11,6 @@ public without sharing class emailMessage_communityEmailHandler {
     }
 
     //this sets the visibility
-    @TestVisible
     private static void setvisibility(EmailMessage[] emailMessages)
     {
         //now we need to get the contact from the cases
