@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+   <masterLabel>Refresh All Data Tables</masterLabel>
+   <isExposed>true</isExposed>
+   <description>Use to refresh all Data Tables</description>
+
+   <lightningMessageFields>
+       <fieldName>refreshAll</fieldName>
+       <description>Refreshes all data tables</description>
+   </lightningMessageFields>
+
+</LightningMessageChannel>

@@ -1,0 +1,24 @@
+<template> 
+    <div class="slds-form-element slds-form-element_stacked">
+        <lightning-input type="search" label={fieldLabel} placeholder="Enter address" value={label} onchange={handleChange} onfocus={handleFocus} autocomplete="off">
+        </lightning-input>
+        <template if:true={showResults}>
+            <div id="listbox-id-3" class="slds-dropdown slds-dropdown_length-with-icon-7 slds-dropdown_fluid" role="listbox">
+                <ul class="slds-listbox slds-listbox_vertical" role="presentation">
+                    <template for:each={results} for:item="result">
+                        <li role="presentation" class="slds-listbox__item" key={result.value} onclick={handleSelect}>
+                            <div class="slds-media slds-listbox__option slds-listbox__option_entity slds-media_center" role="option">
+                                <span class="slds-media__figure slds-listbox__option-icon">
+                                    <lightning-icon icon-name="standard:account" title="account" size="small"></lightning-icon>
+                                </span>
+                                <span class="slds-media__body">
+                                    <span class="slds-listbox__option-text slds-listbox__option-text_entity" data-row-id={result.value}>{result.label}</span>
+                                </span>
+                            </div>
+                        </li>
+                    </template>
+                </ul> 
+            </div>
+        </template>
+    </div>
+</template>

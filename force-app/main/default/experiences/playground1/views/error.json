@@ -1,0 +1,59 @@
+{
+  "appPageId" : "7c583db6-df7e-40cd-a872-ec5ad1e8d0c3",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "659b2172-e00d-47b7-a6b8-85c4a90e91ce",
+  "label" : "Error",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "sectionConfig" : "{\"UUID\":\"1ce8d7d1-4d7b-4a1f-8382-8645d4eae4f7\",\"columns\":[{\"UUID\":\"234375fa-4a2f-4dee-b80a-6595f73c0ef6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "1ce8d7d1-4d7b-4a1f-8382-8645d4eae4f7",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\">Invalid Page</p>"
+          },
+          "componentName" : "community_builder:richTextEditor",
+          "id" : "42889b88-f902-4864-ac0f-6c914ec7e5c8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "234375fa-4a2f-4dee-b80a-6595f73c0ef6",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "c5ffee8a-027a-44b0-97c6-7a8fb410947f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Error",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "9eafaa57-f0f3-4491-b07f-d52d6a0f4662",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2cb5a4f4-4482-47e9-ac30-16396412969f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "error"
+}

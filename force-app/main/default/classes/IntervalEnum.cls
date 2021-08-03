@@ -1,0 +1,1 @@
+public enum IntervalEnum {Monthly, Yearly}

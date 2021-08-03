@@ -1,0 +1,19 @@
+.c-container {
+    border: 1px solid #d8dde6;
+    margin: 10px 0 20px 0;
+}
+.icon {
+    vertical-align: -webkit-baseline-middle;
+    float: left;
+    padding-right: 10px;
+}
+.iconLabel {
+    vertical-align: -webkit-baseline-middle;
+    float: left;
+}
+.iconValue{
+    margin-left: auto;margin-right: 0px;float: right;padding-left: 10px;
+}
+.arrowup {
+    --sds-c-icon-color-foreground-default: green;
+}

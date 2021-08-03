@@ -1,0 +1,14 @@
+<template>
+    <template if:true={error}>
+        {error}
+    </template>
+    <div style="height: 300px;">
+        <lightning-datatable
+                key-field="id"
+                data={budgetItems}
+                columns={columns}
+                max-row-selection=1
+                onrowselection={rowSelected}>
+        </lightning-datatable>
+    </div>    
+</template>

@@ -1,0 +1,49 @@
+<template>
+    <lightning-record-edit-form
+        object-api-name={objectApiName}
+        record-id={recordId}
+        onsubmit={handleSubmit}>
+            <lightning-input-field
+                field-name={typeField}
+                onchange={changedType}>
+            </lightning-input-field>
+            <!--
+            <lightning-input-field
+                field-name={nameField} value={nameFieldVal}>
+            </lightning-input-field>
+            <lightning-input-field
+                field-name={tickerSymbolField}>
+            </lightning-input-field>
+            -->
+            <template if:true={showName}>
+                <lightning-input-field 
+                    field-name={nameField}
+                    required
+                >                    
+                </lightning-input-field>
+            </template>
+            <template if:false={hideStockLookup}>
+                <c-custom-lookup field-label="Stock Ticker" value={nameField} label={stockName} onstockselected={stockselected}></c-custom-lookup>
+            </template>
+            <lightning-input-field
+                field-name={purchaseDate}
+                required>
+            </lightning-input-field>
+            <lightning-input-field
+                field-name={quantity}
+                required>
+            </lightning-input-field>
+            <lightning-input-field
+                field-name={unitPricePurchasePrice}
+                required>
+            </lightning-input-field>
+            <div class="slds-var-m-top_medium">
+                <lightning-button
+                    variant="brand"
+                    type="submit"
+                    label="Save"
+                    >
+                </lightning-button>
+            </div>
+    </lightning-record-edit-form>  
+</template>

@@ -1,0 +1,61 @@
+{
+  "activeBrandingSetId" : "184d0628-877a-427e-b27c-42542788aa10",
+  "customCSS" : "",
+  "developerName" : "byo",
+  "id" : "2f414299-150c-45ce-b573-9f7766f9053a",
+  "label" : "Build Your Own (LWR)",
+  "layouts" : {
+    "Inner" : "b0ea6426-d9ba-487f-9713-85c3e53b86db"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "community_byo:scopedHeaderAndFooter",
+    "id" : "b0ea6426-d9ba-487f-9713-85c3e53b86db",
+    "label" : "Scoped Header and Footer",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "sectionConfig" : "{\"UUID\":\"b7a274cc-e5c4-48ba-9a84-1d0a419aa814\",\"columns\":[{\"UUID\":\"9d8304f8-d976-47fa-96a4-08b0642ed0b2\",\"columnName\":\"Theme Header\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+        },
+        "componentName" : "community_layout:section",
+        "id" : "b7a274cc-e5c4-48ba-9a84-1d0a419aa814",
+        "regions" : [ {
+          "id" : "9d8304f8-d976-47fa-96a4-08b0642ed0b2",
+          "regionLabel" : "Column 1",
+          "regionName" : "headerSection",
+          "renditionMap" : { },
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "scopedBrandingSetId" : null,
+        "type" : "component"
+      } ],
+      "id" : "e73fb8f7-f799-4753-a0e6-2ff620f4b34b",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "sectionConfig" : "{\"UUID\":\"e322d80f-de27-4db6-bc6e-333fc2eb148e\",\"columns\":[{\"UUID\":\"2cfb2800-054d-434c-b960-b52b62337ec4\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+        },
+        "componentName" : "community_layout:section",
+        "id" : "e322d80f-de27-4db6-bc6e-333fc2eb148e",
+        "regions" : [ {
+          "id" : "2cfb2800-054d-434c-b960-b52b62337ec4",
+          "regionLabel" : "Theme Footer",
+          "regionName" : "footerSection",
+          "renditionMap" : { },
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "scopedBrandingSetId" : null,
+        "type" : "component"
+      } ],
+      "id" : "50beab55-aa76-44c5-95d4-8c70b954008d",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

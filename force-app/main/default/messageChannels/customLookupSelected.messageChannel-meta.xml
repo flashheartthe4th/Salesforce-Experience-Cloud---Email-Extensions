@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+   <masterLabel>Custom Lookup Selected</masterLabel>
+   <isExposed>true</isExposed>
+   <description>Item selected from custom lookup</description>
+
+   <lightningMessageFields>
+       <fieldName>id</fieldName>
+       <description>ID of the selected item</description>
+   </lightningMessageFields>
+
+</LightningMessageChannel>

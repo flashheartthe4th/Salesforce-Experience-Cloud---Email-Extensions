@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-box slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none">
+        <lightning-layout multiple-rows="true">
+            <template for:each={budgetItems} for:item="budgetItem">
+                <lightning-layout-item flexibility="auto" padding="around-small" key={budgetItem.id} >
+                        <lightning-card variant="Narrow" title={budgetItem.Name} icon-name="standard:account">
+                            <p></p>
+                            <p slot="footer">Card Footer</p>
+                        </lightning-card>
+                </lightning-layout-item>
+            </template>
+        </lightning-layout>
+    </div>
+</template>

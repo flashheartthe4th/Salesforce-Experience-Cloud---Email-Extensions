@@ -1,0 +1,92 @@
+{
+  "appPageId" : "7c583db6-df7e-40cd-a872-ec5ad1e8d0c3",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "9010a747-5cae-4001-b836-961908a254da",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "sectionConfig" : "{\"UUID\":\"d24b1d54-c3d7-4a72-b9b9-8aaf794b076f\",\"columns\":[{\"UUID\":\"b2a3d4d3-1448-4135-bb6e-3a572a445b1d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":null},{\"UUID\":\"4d764a58-df59-4481-b634-fa46a5e58fa4\",\"columnName\":\"Column 2\",\"columnKey\":\"9344f\",\"columnWidth\":\"9\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "d24b1d54-c3d7-4a72-b9b9-8aaf794b076f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:currentUserTile",
+          "id" : "8fc725f6-50cc-43e0-bb0a-8a5880fd87db",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:netWorthIndicator",
+          "id" : "07d8e372-de4b-4ebc-a61f-a738eb5fa3f5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:budgetItem_Form",
+          "id" : "63e8cc92-2a4c-48ed-bdac-64dde3236010",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b2a3d4d3-1448-4135-bb6e-3a572a445b1d",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:incomeTable",
+          "id" : "f1cb3b9b-1a94-40d6-bc6c-589884a1a15d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:expenditureTable",
+          "id" : "31d66d9e-265b-436d-9747-9e0b4184a26c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4d764a58-df59-4481-b634-fa46a5e58fa4",
+        "regionLabel" : "Column 2",
+        "regionName" : "9344f",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : "54a840f2-f8b3-4801-8e46-2c365927541e",
+      "type" : "component"
+    } ],
+    "id" : "f0762465-b882-47c1-a5b9-e60c90d84da6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Home",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "99e5641a-a04b-49ad-87f9-72a2e773f8c2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "af51cb12-b6a9-4de0-b9c1-6ba93b116ae9",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Expenditure">
+        <lightning-button label="New" slot="actions" variant="brand"></lightning-button>
+        <div style="height: 300px;">
+            <p class="slds-p-horizontal_small">
+                <lightning-datatable
+                        key-field="id"
+                        data={budgetItems}
+                        columns={columns}
+                        max-row-selection=1
+                        onrowselection={rowSelected}
+                        column-widths-mode="auto"
+                        min-column-width="80">
+                </lightning-datatable>    
+            </p>
+        </div>
+        <p slot="footer">
+
+        </p>
+    </lightning-card>
+</template>
